@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+}
+
+body .container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body .container header #OrangeHeader {
+  width: 1440px;
+  height: 825px;
+}
+/*# sourceMappingURL=style.css.map */

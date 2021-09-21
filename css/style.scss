@@ -1,0 +1,16 @@
+@import "colors";
+@import "typography";
+body {
+  display: flex;
+  font-size: $FontSize;
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    header {
+      #OrangeHeader {
+        width: 1440px;
+        height: 825px;
+      }
+    }
+  }
+}
