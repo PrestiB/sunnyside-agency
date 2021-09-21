@@ -12,8 +12,43 @@ body .container {
   margin: 0 auto;
 }
 
-body .container header #OrangeHeader {
+body .container header {
+  background-image: url(/media/image-header.jpg);
+  background-size: 1440px, 805px;
+  background-repeat: no-repeat;
   width: 1440px;
-  height: 825px;
+  height: 800px;
+}
+
+body .container header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container header nav #LogoHeader {
+  color: white;
+  padding-top: 45px;
+  padding-left: 40px;
+}
+
+body .container header nav #LogoHeader img {
+  width: 170px;
+}
+
+body .container header nav #MenuHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 50px;
+}
+
+body .container header nav #MenuHeader li {
+  padding: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */
