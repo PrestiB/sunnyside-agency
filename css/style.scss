@@ -286,6 +286,8 @@ body {
         padding-top: 4em;
         img {
           width: 10em;
+          filter: invert(66%) sepia(47%) saturate(491%) hue-rotate(118deg)
+            brightness(102%) contrast(89%);
         }
       }
       #MenuFooter {

@@ -419,6 +419,8 @@ body .container footer #LogoFooter {
 
 body .container footer #LogoFooter img {
   width: 10em;
+  -webkit-filter: invert(66%) sepia(47%) saturate(491%) hue-rotate(118deg) brightness(102%) contrast(89%);
+          filter: invert(66%) sepia(47%) saturate(491%) hue-rotate(118deg) brightness(102%) contrast(89%);
 }
 
 body .container footer #MenuFooter {
