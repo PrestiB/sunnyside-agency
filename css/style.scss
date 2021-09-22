@@ -8,9 +8,9 @@ body {
     margin: 0 auto;
     header {
       background-image: url(/media/image-header.jpg);
-      background-size: 1440px, 805px;
+      background-size: 100%, 805px;
       background-repeat: no-repeat;
-      width: 1440px;
+      width: 100%;
       height: 800px;
       nav {
         display: flex;
@@ -103,13 +103,172 @@ body {
             font-size: 0.9em;
             color: $DarkBlue;
             margin-left: 2%;
+            margin-bottom: -1%;
+            z-index: 2;
+            &:hover {
+              color: $LearnMoreYellow;
+            }
           }
           .Line {
             border: 5px solid $LearnMoreYellow;
-            opacity: 0.33;
+            opacity: 0.3;
             border-radius: 25px;
             width: 28%;
+            z-index: 1;
           }
+        }
+      }
+      #Stand {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 450px;
+        max-height: 350px;
+        margin: 15% auto;
+        p {
+          font-family: $Test1;
+          line-height: 1.5em;
+          color: $DarkGrayishBlue;
+          font-size: 1em;
+        }
+        .RedLink {
+          display: flex;
+          flex-direction: column;
+          a {
+            text-decoration: none;
+            font-family: $Test2;
+            font-weight: $Weight3;
+            font-size: 0.9em;
+            color: $DarkBlue;
+            margin-left: 2%;
+            margin-bottom: -1%;
+            z-index: 2;
+            &:hover {
+              color: $LearnMoreRed;
+            }
+          }
+          .Line {
+            border: 5px solid $LearnMoreRed;
+            opacity: 0.3;
+            border-radius: 25px;
+            width: 28%;
+            z-index: 1;
+          }
+        }
+      }
+    }
+    #Two {
+      display: grid;
+      grid-template-areas: "Graphic Photography";
+      #Graphic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/media/image-graphic-design.jpg);
+        background-repeat: no-repeat;
+        width: 720px;
+        height: 600px;
+        #GraphicTitle {
+          font-family: $Test2;
+          font-weight: $Weight3;
+          font-size: 1.7em;
+          color: $GraphicDesignText;
+          margin-top: 45%;
+          margin-bottom: 5%;
+        }
+        p {
+          font-family: $Test1;
+          font-weight: $Weight1;
+          line-height: 1.7em;
+          font-size: 0.9em;
+          color: $GraphicDesignText;
+          text-align: center;
+          margin: 0 26%;
+        }
+      }
+      #Photography {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/media/image-photography.jpg);
+        background-repeat: no-repeat;
+        width: 720px;
+        height: 600px;
+        #PhotographyTitle {
+          font-family: $Test2;
+          font-weight: $Weight3;
+          font-size: 1.7em;
+          color: $PhotographyText;
+          margin-top: 45%;
+          margin-bottom: 5%;
+        }
+        p {
+          font-family: $Test1;
+          font-weight: $Weight1;
+          line-height: 1.7em;
+          font-size: 0.9em;
+          color: $PhotographyText;
+          text-align: center;
+          margin: 0 26%;
+        }
+      }
+    }
+    #TestimonialsTitle {
+      font-family: $Test2;
+      font-weight: $Weight3;
+      color: $GrayishBlue;
+      font-size: 1.1em;
+      letter-spacing: 6px;
+      text-align: center;
+      background-color: #fffbf8;
+      padding-top: 9em;
+    }
+    #ClientTestimonials {
+      display: grid;
+      grid-area: 1fr;
+      grid-template-columns: repeat(3, 1fr);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fffbf8;
+      padding-top: 4.5em;
+      padding-left: 9em;
+      padding-right: 9em;
+      padding-bottom: 1em;
+      img {
+        border-radius: 100%;
+        width: 70px;
+        height: 70px;
+      }
+      .Client {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        q {
+          font-family: $Test1;
+          line-height: 1.5em;
+          color: $VeryDarkGrayishBlue;
+          font-size: 1em;
+          padding-top: 3em;
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+        .Sign {
+          font-family: $Test2;
+          font-weight: $Weight3;
+          font-size: 1em;
+          color: $DarkBlue;
+          padding-top: 4em;
+        }
+        .Post {
+          font-family: $Test1;
+          color: $GrayishBlue;
+          font-size: 0.8em;
+          padding-top: 1em;
+          padding-bottom: 10em;
         }
       }
     }
