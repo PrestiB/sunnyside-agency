@@ -27,8 +27,20 @@ body {
           display: flex;
           justify-content: space-around;
           padding-top: 50px;
-          li {
-            padding: 0 10px;
+          margin-right: 80px;
+          li a {
+            text-decoration: none;
+            color: $White;
+            font-size: 19px;
+            padding: 0 25px;
+          }
+          #ContactTwo {
+            font-size: 17px;
+            color: black;
+            font-weight: bold;
+            padding: 15px 25px;
+            background-color: $White;
+            border-radius: 25px;
           }
         }
       }

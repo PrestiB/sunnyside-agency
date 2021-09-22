@@ -46,9 +46,22 @@ body .container header nav #MenuHeader {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 50px;
+  margin-right: 80px;
 }
 
-body .container header nav #MenuHeader li {
-  padding: 0 10px;
+body .container header nav #MenuHeader li a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  padding: 0 25px;
+}
+
+body .container header nav #MenuHeader #ContactTwo {
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=style.css.map */
