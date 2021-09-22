@@ -388,3 +388,16 @@ body .container #ClientTestimonials .Client .Post {
   padding-top: 1em;
   padding-bottom: 10em;
 }
+
+body .container #Library {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container #Library .Picture {
+  width: 25%;
+}

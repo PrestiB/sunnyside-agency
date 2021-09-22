@@ -272,5 +272,12 @@ body {
         }
       }
     }
+    #Library {
+      display: flex;
+      justify-content: center;
+      .Picture {
+        width: 25%;
+      }
+    }
   }
 }
