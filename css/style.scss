@@ -31,16 +31,84 @@ body {
           li a {
             text-decoration: none;
             color: $White;
-            font-size: 19px;
+            font-size: 1.1em;
             padding: 0 25px;
+            &:hover {
+              color: #ff5900;
+            }
           }
           #ContactTwo {
-            font-size: 17px;
+            font-size: 1em;
             color: black;
             font-weight: bold;
             padding: 15px 25px;
             background-color: $White;
             border-radius: 25px;
+            &:hover {
+              color: #ff5900;
+            }
+          }
+        }
+      }
+      h1 {
+        font-family: $Test2;
+        font-weight: $Weight3;
+        color: $White;
+        font-size: 3em;
+        letter-spacing: 10px;
+        padding-bottom: 100px;
+      }
+      .Title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 250px;
+        margin: 9% auto;
+      }
+    }
+    #Four {
+      display: grid;
+      grid-template-areas:
+        "Transform Egg"
+        "Glass Stand";
+      background-color: #fffbf8;
+      h2 {
+        font-family: $Test2;
+        font-weight: $Weight3;
+        line-height: 1.3em;
+        font-size: 2.3em;
+        color: $DarkBlue;
+      }
+      #Transform {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 450px;
+        max-height: 350px;
+        margin: 15% auto;
+        p {
+          font-family: $Test1;
+          line-height: 1.5em;
+          color: $DarkGrayishBlue;
+          font-size: 1em;
+        }
+        .YellowLink {
+          display: flex;
+          flex-direction: column;
+          a {
+            text-decoration: none;
+            font-family: $Test2;
+            font-weight: $Weight3;
+            font-size: 0.9em;
+            color: $DarkBlue;
+            margin-left: 2%;
+          }
+          .Line {
+            border: 5px solid $LearnMoreYellow;
+            opacity: 0.33;
+            border-radius: 25px;
+            width: 28%;
           }
         }
       }

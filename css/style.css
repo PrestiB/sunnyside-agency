@@ -52,16 +52,114 @@ body .container header nav #MenuHeader {
 body .container header nav #MenuHeader li a {
   text-decoration: none;
   color: white;
-  font-size: 19px;
+  font-size: 1.1em;
   padding: 0 25px;
 }
 
+body .container header nav #MenuHeader li a:hover {
+  color: #ff5900;
+}
+
 body .container header nav #MenuHeader #ContactTwo {
-  font-size: 17px;
+  font-size: 1em;
   color: black;
   font-weight: bold;
   padding: 15px 25px;
   background-color: white;
   border-radius: 25px;
+}
+
+body .container header nav #MenuHeader #ContactTwo:hover {
+  color: #ff5900;
+}
+
+body .container header h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: white;
+  font-size: 3em;
+  letter-spacing: 10px;
+  padding-bottom: 100px;
+}
+
+body .container header .Title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 250px;
+  margin: 9% auto;
+}
+
+body .container #Four {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "Transform Egg" "Glass Stand";
+  background-color: #fffbf8;
+}
+
+body .container #Four h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  line-height: 1.3em;
+  font-size: 2.3em;
+  color: #23303e;
+}
+
+body .container #Four #Transform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 450px;
+  max-height: 350px;
+  margin: 15% auto;
+}
+
+body .container #Four #Transform p {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.5em;
+  color: #818498;
+  font-size: 1em;
+}
+
+body .container #Four #Transform .YellowLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container #Four #Transform .YellowLink a {
+  text-decoration: none;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 0.9em;
+  color: #23303e;
+  margin-left: 2%;
+}
+
+body .container #Four #Transform .YellowLink .Line {
+  border: 5px solid #fad400;
+  opacity: 0.33;
+  border-radius: 25px;
+  width: 28%;
 }
 /*# sourceMappingURL=style.css.map */
