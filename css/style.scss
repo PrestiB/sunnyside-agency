@@ -16,7 +16,6 @@ body {
         display: flex;
         justify-content: space-between;
         #LogoHeader {
-          color: $White;
           padding-top: 45px;
           padding-left: 40px;
           img {
@@ -25,7 +24,6 @@ body {
         }
         #MenuHeader {
           display: flex;
-          justify-content: space-around;
           padding-top: 50px;
           margin-right: 80px;
           li a {
@@ -277,6 +275,41 @@ body {
       justify-content: center;
       .Picture {
         width: 25%;
+      }
+    }
+    footer {
+      background-color: #90d4c5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      #LogoFooter {
+        padding-top: 4em;
+        img {
+          width: 10em;
+        }
+      }
+      #MenuFooter {
+        display: flex;
+        padding-top: 2em;
+        a {
+          padding: 0 1.5em;
+          font-size: 1.1em;
+          text-decoration: none;
+          font-weight: bold;
+          color: $Footer;
+          &:hover {
+            color: $White;
+          }
+        }
+      }
+      #Social {
+        display: flex;
+        justify-content: center;
+        padding-top: 4.5em;
+        padding-bottom: 4em;
+        a {
+          padding: 0 0.7em;
+        }
       }
     }
   }

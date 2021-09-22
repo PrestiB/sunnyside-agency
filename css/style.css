@@ -30,7 +30,6 @@ body .container header nav {
 }
 
 body .container header nav #LogoHeader {
-  color: white;
   padding-top: 45px;
   padding-left: 40px;
 }
@@ -43,8 +42,6 @@ body .container header nav #MenuHeader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   padding-top: 50px;
   margin-right: 80px;
 }
@@ -400,4 +397,60 @@ body .container #Library {
 
 body .container #Library .Picture {
   width: 25%;
+}
+
+body .container footer {
+  background-color: #90d4c5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container footer #LogoFooter {
+  padding-top: 4em;
+}
+
+body .container footer #LogoFooter img {
+  width: 10em;
+}
+
+body .container footer #MenuFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2em;
+}
+
+body .container footer #MenuFooter a {
+  padding: 0 1.5em;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #458c7e;
+}
+
+body .container footer #MenuFooter a:hover {
+  color: white;
+}
+
+body .container footer #Social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 4.5em;
+  padding-bottom: 4em;
+}
+
+body .container footer #Social a {
+  padding: 0 0.7em;
 }
