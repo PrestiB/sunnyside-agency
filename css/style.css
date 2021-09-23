@@ -13,7 +13,7 @@ body .container {
 }
 
 body .container header {
-  background-image: url(/media/image-header.jpg);
+  background-image: url("../media/image-header.jpg");
   background-size: 100%, 805px;
   background-repeat: no-repeat;
   width: 100%;
@@ -242,7 +242,7 @@ body .container #Two #Graphic {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(/media/image-graphic-design.jpg);
+  background-image: url("../media/image-graphic-design.jpg");
   background-repeat: no-repeat;
   width: 720px;
   height: 600px;
@@ -281,7 +281,7 @@ body .container #Two #Photography {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(/media/image-photography.jpg);
+  background-image: url("../media/image-photography.jpg");
   background-repeat: no-repeat;
   width: 720px;
   height: 600px;
