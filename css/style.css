@@ -456,3 +456,8 @@ body .container footer #Social {
 body .container footer #Social a {
   padding: 0 0.7em;
 }
+
+body .container footer #Social a img:hover {
+  -webkit-filter: brightness(0) invert(100%);
+          filter: brightness(0) invert(100%);
+}
